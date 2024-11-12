@@ -43,7 +43,7 @@ export default function HomeScreen() {
   return (
     <div>
       <Helmet>
-        <title>eShop</title>
+        <title>E-COM</title>
       </Helmet>
       <h1>Featured Products</h1>
       <div className="products">
@@ -55,7 +55,6 @@ export default function HomeScreen() {
           <Row>
             {products.map((product) => (
               <Col key={product.slug} sm={6} md={4} lg={3} className="mb-3">
-                {/* <Product product={product}></Product> */}
                 <Product product={product}></Product>
               </Col>
             ))}
